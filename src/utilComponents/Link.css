@@ -1,0 +1,29 @@
+.link {
+    width: 225px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .2s;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.link:hover {
+    background-color: rgba(80, 48, 229, 0.08);
+}
+
+.link > p {
+    color: #787486;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 14px;
+}
+
+.link > img {
+    width: 24px;
+    height: 24px;
+}
