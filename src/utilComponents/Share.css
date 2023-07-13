@@ -1,0 +1,113 @@
+.share {
+
+}
+
+.share__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.share__header > img {
+    margin-right: 7px;
+    width: 18px;
+    height: 18px;
+}
+
+.share__header > p {
+    color: #5030E5;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+
+.temp {
+    color: #D25B68;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #F4D7DA;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-40px, 0);
+    border: 1px solid white;
+}
+
+.share__image__container {
+    display: flex;
+    align-items: center;
+}
+.share__image__container > img{
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;    
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.share__image__container > img:nth-child(1) {
+    transform: translate(-8px, 0);
+}
+.share__image__container > img:nth-child(2) {
+    transform: translate(-16px, 0);
+}
+.share__image__container > img:nth-child(3) {
+    transform: translate(-24px, 0);
+}
+.share__image__container > img:nth-child(4) {
+    transform: translate(-32px, 0);
+}
+
+.share__footer {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 2px;
+    height: 28px;
+    background-color: #787486;
+    margin-left: 20px;
+    margin-right: 4px;
+}
+
+.share__footer > button:not(:first-child) {
+    border: none;
+    margin: 0 16px;
+}
+
+.share-btn {
+    width: 97px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #787486;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share-btn > img {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-right: 7px;
+}
+
+.share-btn > p {
+    color: #787486;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
