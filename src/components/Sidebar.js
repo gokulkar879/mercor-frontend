@@ -13,12 +13,18 @@ import lampon from "../assets/icons/lamp-on.svg";
 
 
 function Sidebar() {
+
+    const handleClick = ev => {
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.width = "0px";
+    }
+
   return (
     <div className='sidebar'>
         <div className='sidebar__header'>
             <img src={group7}></img>
             <p>Project M.</p>
-            <button>
+            <button onClick={handleClick}>
                 <img src={group639}></img>
             </button>
         </div>

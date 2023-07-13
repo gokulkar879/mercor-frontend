@@ -1,0 +1,49 @@
+.mobileApp {
+
+}
+
+.mobileApp__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.mobileApp__header > p {
+    color: #0D062D;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-right: 15px;
+}
+
+.mobileApp__header > img {
+    margin: 0 10px;
+    transform: translate(0, 10px);
+}
+
+.mobileApp__buttons {
+    display: flex;
+
+}
+
+.mobileApp__buttons > button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 122px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #787486;
+    margin: 0 5px;
+}
+
+.mobileApp__buttons > button > p {
+    color: #787486;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
