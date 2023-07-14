@@ -123,6 +123,7 @@
 /* Dashboard */
 .dashboard {
   flex: 1;
+  overflow-y: scroll;
 }
 
 .dashboard__center {
@@ -131,4 +132,82 @@
   justify-content: space-between;
   padding: 0 30px;
   margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.dashboard__tasks {
+  padding: 0 25px;
+}
+
+.dashboard-tasks-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(334px, 390px));
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+._dashboard-tasks {
+  border-radius: 16px 16px 0px 0px;
+  background: #F5F5F5;
+  width: 354px;
+  padding: 20px;
+}
+
+.header-todo {
+  margin-bottom: 28px;
+}
+
+.header-onProgress {
+  margin-bottom: 28px;
+}
+
+.header-done {
+  margin-bottom: 28px;
+}
+
+.tasks__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.tasks__header > p {
+  flex: 1;
+  margin-left: 16px;
+  color: #0D062D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.count {
+  display: inline-block;
+  margin-left: 10px;
+  color: #625F6D;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: #E0E0E0;
+  text-align: center;
+}
+
+.tasks-center {
+
+}
+
+
+@media screen and (max-width: 900px) {
+    .sidebar {
+      width: 0;
+    }
+
+    .sidebar.active {
+      width: 260px;
+      position: absolute;
+    }
 }
