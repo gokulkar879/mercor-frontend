@@ -17,6 +17,9 @@ function Sidebar() {
     const handleClick = ev => {
         const sidebar = document.querySelector(".sidebar")
         sidebar.style.width = "0px";
+
+        const btn = document.querySelector(".sidebar__control");
+        btn.style.display = "flex";
     }
 
   return (

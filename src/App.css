@@ -204,10 +204,12 @@
 @media screen and (max-width: 900px) {
     .sidebar {
       width: 0;
+      position: absolute;
+      z-index: 100;
+      background-color: white;
     }
 
-    .sidebar.active {
+    /* .sidebar.active {
       width: 260px;
-      position: absolute;
-    }
+    } */
 }
