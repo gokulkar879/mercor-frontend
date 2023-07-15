@@ -113,3 +113,35 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .profile__info > p:nth-child(1) {
+        font-size: 8px;
+    }
+
+    .profile__info > p:nth-child(2) {
+        font-size: 6px;
+    }
+
+    .profile__info {
+        margin-right: 8px;
+    }
+
+    .navbar__buttons {
+        margin-right: 10px;
+    }
+
+    .navbar__buttons > button {
+        margin: 0 8px;
+    }
+
+    .navbar__form > label {
+        min-width: 280px;
+        padding: 8px;
+    }
+    
+    .navbar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
